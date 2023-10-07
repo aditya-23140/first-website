@@ -1,0 +1,48 @@
+.first,
+.second{
+  width: 150px;
+  display: inline;
+  font-size: 20px;
+  border-radius: 8px;
+  border-width: 1.5px;
+  border-color: rgb(222, 222, 222);
+  margin-left: 5px;
+  margin-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.email{
+  width: 350px;
+  display: block;
+  font-size: 20px;
+  border-radius: 8px;
+  border-width: 1.5px;
+  border-color: rgb(222, 222, 222);
+  margin-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.button{
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 380px;
+  background-color: rgb(31, 117, 237);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  transition: opacity 15ms;
+}
+.button:hover{
+  opacity: 0.7;
+}
+.button:active{
+  opacity: 0.4;
+}

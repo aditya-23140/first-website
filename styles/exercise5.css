@@ -1,0 +1,34 @@
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.f{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.s{
+    color: rgb(96, 96, 96);
+    font-size: 16px;
+}
+.t{
+    color: rgb(6, 171, 6);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.fo{
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+}
+.fi{
+    color: red;
+}
+.si{
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.se{
+    color: rgb(12, 175, 245);
+    font-size: 16px;
+}

@@ -1,0 +1,18 @@
+p{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+.des{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.link{
+    color: rgb(8, 149, 236);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 14-a-b-c-d</title>
+  </head>
+  <body style="background-color: white;
+    height: 3000px;">
+    <div style="
+    position: fixed;
+    background-color: rgb(229, 169, 255);
+    bottom: 20px;
+    right: 100px;
+    color: rgb(0, 0, 0);
+    ">bottom-right</div>
+  <div style="
+    position: fixed;
+    background-color: rgb(122, 243, 213);
+    color: rgb(0, 0, 0);
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100px;">right-sidebar</div>
+  <div style="background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    display: flex; /*Important*/
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;">
+      <div style="display: flex;
+        flex: 1;
+        max-width: 300px;
+        flex-direction: column;
+        background-color: white;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        border-radius: 15px;">
+        <p style="font-weight: bold;
+          margin: 0;
+          font-size: 30px;
+          font-family: Arial;">Modal Title</p>
+        <p style="font-family: Arial;
+          font-size: 18px;">This is a Modal</p>
+        <button style="width: 60px;
+          font-family: Arial;
+          font-size: 14px;">Close</button>
+      </div>
+    </div>
+  </body>
+</html>

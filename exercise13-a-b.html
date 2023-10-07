@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 13 a and b</title>
+    <style>
+      .flex{
+        display: flex;
+        flex-direction: row;
+        height: 55px;
+      }
+      .left{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100px;
+        background-color: lightblue;
+      }
+      .right{
+        width: 200px;
+        background-color: lightpink;
+      }
+      .flex2{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+      }
+      .item{
+        color: white;
+        background-color: black;
+      }
+      .row2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .row2-1{
+        color: white;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="left">
+        <div class="flex2"><div class="item">Item 1</div></div>
+      </div>
+      <div class="right">
+        <div class="row1"><div class="row1-1">row 1</div></div>
+        <div class="row2">
+          <div class="row2-1">row 2</div>
+          <div class="row2-1">row 2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

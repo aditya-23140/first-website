@@ -1,0 +1,21 @@
+.gojo{
+  width: 500px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  margin-right: 50px;
+}
+.gojo2{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 20px;
+}
+.gojo3{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 200px;
+  vertical-align: middle;
+}
