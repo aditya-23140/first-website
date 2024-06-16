@@ -96,8 +96,4 @@ h1{
     width: 80%;
     height: auto;
   }
-
-  .img-tile>img{
-    filter: grayscale(0%);
-  }
 }
